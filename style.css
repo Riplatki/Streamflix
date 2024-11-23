@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Carousel */
+.carousel {
+  padding: 20px;
+}
+
+.carousel h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.carousel-container img {
+  width: 150px;
+  border-radius: 5px;
+}
