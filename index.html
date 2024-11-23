@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<script src="https://	cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Netflix Clone</title>
@@ -17,6 +20,12 @@
       <a href="#">My List</a>
     </nav>
   </header>
+<section class="auth">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="signUp(email.value, password.value)">Sign Up</button>
+    <button onclick="login(email.value, password.value)">Login</button>
+</section>
 
   <!-- Hero Section -->
   <section class="hero">

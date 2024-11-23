@@ -66,3 +66,31 @@ a {
   width: 150px;
   border-radius: 5px;
 }
+.movie img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie img:hover {
+    transform: scale(1.1);
+}
+.auth {
+    text-align: center;
+    margin: 20px;
+}
+
+.auth input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.auth button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
